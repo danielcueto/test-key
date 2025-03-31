@@ -1,4 +1,4 @@
-package com.mycompany;
+package com.mycompany.zooproject;
 
 public class ReproductionAsexuallyInvertebrate implements ReproductionStrategyInvertebrate{
 

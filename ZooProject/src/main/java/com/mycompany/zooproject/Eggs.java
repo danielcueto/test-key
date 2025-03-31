@@ -1,7 +1,7 @@
-package com.mycompany;
+package com.mycompany.zooproject;
 
 public class Eggs {
-    
+
     private int amount;
     private String type;
 

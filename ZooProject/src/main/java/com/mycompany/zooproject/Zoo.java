@@ -14,13 +14,19 @@ import java.util.List;
 public class Zoo {
     
     List<Mamal> mamals;
+    List<Invertebrate> invertebrates;
     
     public Zoo() {
         mamals = new LinkedList<Mamal>();
+        invertebrates = new LinkedList<Invertebrate>();
     }
     
     
     public void AddMamal(Mamal mamal) {
         this.mamals.add(mamal);
+    }
+
+    public void AddInvertebrate(Invertebrate invertebrate) {
+        this.invertebrates.add(invertebrate);
     }
 }

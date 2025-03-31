@@ -1,4 +1,6 @@
-package com.mycompany;
+package com.mycompany.zooproject;
+
+import com.mycompany.Invertebrate;
 
 public interface ReproductionStrategyInvertebrate {
     
