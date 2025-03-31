@@ -12,7 +12,7 @@ public class ChiropteraNormalCreator extends ChiropteraFactory {
 
     @Override
     public Chiroptera CreateChiroptera() {
-        return new NormalChiroptera();
+        return new ChiropteraNormal();
     }
     
 }

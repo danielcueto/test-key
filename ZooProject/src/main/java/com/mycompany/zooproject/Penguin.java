@@ -8,7 +8,7 @@ package com.mycompany.zooproject;
  *
  * @author daniel.cueto
  */
-public class ChiropteraAlbino implements Chiroptera {
+public class Penguin implements Bird, Walk, Swim {
 
     @Override
     public void breath(String type) {
@@ -21,13 +21,14 @@ public class ChiropteraAlbino implements Chiroptera {
     }
 
     @Override
-    public void Fly() {
+    public void Walk() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     @Override
-    public void Walk() {
+    public void Swim() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
+    
     
 }

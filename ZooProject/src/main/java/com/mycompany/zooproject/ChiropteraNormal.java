@@ -8,7 +8,7 @@ package com.mycompany.zooproject;
  *
  * @author daniel.cueto
  */
-public class ChiropteraAlbino implements Chiroptera {
+public class ChiropteraNormal implements Chiroptera {
 
     @Override
     public void breath(String type) {
