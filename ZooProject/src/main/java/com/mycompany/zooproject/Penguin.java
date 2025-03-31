@@ -8,7 +8,7 @@ package com.mycompany.zooproject;
  *
  * @author daniel.cueto
  */
-public class Penguin implements Bird, Walk, Swim {
+public class Penguin implements Spheniscidae, Walk, Swim {
 
     @Override
     public void breath(String type) {
