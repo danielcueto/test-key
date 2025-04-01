@@ -8,6 +8,6 @@ package com.mycompany.zooproject;
  *
  * @author daniel.cueto
  */
-public interface Delphinidae extends Mamal, Swim {
+public interface Delphinidae extends Mammal, Swim {
     
 }

@@ -8,6 +8,6 @@ package com.mycompany.zooproject;
  *
  * @author daniel.cueto
  */
-public interface Chiroptera extends Mamal, Fly, Walk {
+public interface Chiroptera extends Mammal, Fly, Walk {
     
 }

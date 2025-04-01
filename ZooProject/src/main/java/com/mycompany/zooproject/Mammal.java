@@ -8,16 +8,5 @@ package com.mycompany.zooproject;
  *
  * @author daniel.cueto
  */
-public abstract class Mammal {
-    protected String name;
-    protected String gender;
-    protected String species;
-
-    public Mammal(String name, String gender, String species) {
-        this.name = name;
-        this.gender = gender;
-        this.species = species;
-    }
-
-    public abstract void reproduce(Mammal partner);
+public interface Mammal extends Actions {
 }
