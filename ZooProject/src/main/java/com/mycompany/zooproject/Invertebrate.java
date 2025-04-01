@@ -1,13 +1,23 @@
 package com.mycompany.zooproject;
 
-public class Invertebrate{
-   private String name; 
+public abstract class Invertebrate {
+   protected String name;
+   protected ReproductionStrategyInvertebrate strategy;
+   
    public Invertebrate(String name) {
-    this.name = name;
+       this.name = name;
    }
-   public void reproduction() {
+   
+   public void setStrategy(ReproductionStrategyInvertebrate strategy) {
+       this.strategy = strategy;
    }
-   public void setReproductionEstrategy(ReproductionStrategyInvertebrate estrategy) {
-
+   
+   public void reproduce() {
+       Invertebrate offspring = strategy.reproduce(this.strategy);
+       System.out.println(":beetle: Invertebrate offspring created: " + offspring.getName());
+   }
+   
+   public String getName() {
+       return name;
    }
 }
