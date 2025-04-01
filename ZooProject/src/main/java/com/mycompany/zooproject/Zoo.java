@@ -19,6 +19,7 @@ public class Zoo {
     
     public Zoo() {
         mamals = new LinkedList<Mamal>();
+        birds = new LinkedList<Bird>();
     }
     
     

@@ -6,9 +6,9 @@ package com.mycompany.zooproject;
 
 /**
  *
- * @author daniel.cueto
+ * @author sebastianpadilla
  */
-public class Penguin implements Spheniscidae, Walk, Swim {
+public class DelphinidaeSpinner implements Delphinidae {
 
     @Override
     public void breath(String type) {
@@ -21,14 +21,8 @@ public class Penguin implements Spheniscidae, Walk, Swim {
     }
 
     @Override
-    public void Walk() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
-    @Override
     public void Swim() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
-    
     
 }

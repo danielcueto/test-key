@@ -6,13 +6,13 @@ package com.mycompany.zooproject;
 
 /**
  *
- * @author daniel.cueto
+ * @author sebastianpadilla
  */
-public class Dolphin implements Delphinidae {
+public class SpheniscidaeKingCreator extends SpheniscidaeFactory {
 
     @Override
-    public void Swim() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public Spheniscidae CreateSpheniscidae() {
+        return new SpheniscidaeKing();
     }
     
 }

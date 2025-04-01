@@ -8,6 +8,6 @@ package com.mycompany.zooproject;
  *
  * @author daniel.cueto
  */
-public interface Spheniscidae extends Bird {
+public interface Spheniscidae extends Bird, Swim, Walk {
     
 }
