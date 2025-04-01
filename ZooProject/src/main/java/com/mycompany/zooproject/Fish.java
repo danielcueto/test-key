@@ -1,6 +1,6 @@
 package com.mycompany.zooproject;
 
-public class Fish {
+public abstract class Fish {
     protected String name;
     protected String gender;
     protected String type;
@@ -16,17 +16,13 @@ public class Fish {
         this.logic = logic;
     }
 
-    public Hippocampus reproduceWith(Fish partner) {
+    public Fish reproduceWith(Fish partner) {
         if (logic.canReproduceWith(this, partner)) {
             return logic.reproduce(this, partner);
         } else {
-            System.out.println("  Reproduction not allowed between " + this.name + " and " + partner.name);
+            System.out.println("❌ Reproduction not allowed between " + this.name + " and " + partner.name);
             return null;
         }
-    }
-
-    public String getName() {
-        return name;
     }
 
     public String getGender() {
