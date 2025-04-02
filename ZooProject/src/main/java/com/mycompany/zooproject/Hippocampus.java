@@ -1,5 +1,9 @@
 package com.mycompany.zooproject;
 
+/**
+ *
+ * 
+ */
 public class Hippocampus extends Fish {
     private String color;
     private int age;

@@ -1,14 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.zooproject;
 
 import java.util.Scanner;
 
 /**
  *
- * @author daniel.cueto
+ * 
  */
 
 //Este es el metodo main
@@ -92,5 +88,7 @@ public class ZooProject {
             inv.setStrategy(new AsexualReproductionInvertebrate());
         }
         inv.reproduce();
+
+        scanner.close();
     }
 }
