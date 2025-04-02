@@ -9,5 +9,5 @@ package com.mycompany.zooproject;
  * @author daniel.cueto
  */
 public interface Swim {
-    void Swim();
+    void swim();
 }

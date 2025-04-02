@@ -12,22 +12,22 @@ public class SpheniscidaeKing implements Spheniscidae {
 
     @Override
     public void breath(String type) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        System.out.println("I'm breathing...");
     }
 
     @Override
     public void feed(String food) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        System.out.println("I'm feeding..." + food);
     }
 
     @Override
-    public void Swim() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public void swim() {
+        System.out.println("I'm swimming...");
     }
 
     @Override
-    public void Walk() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public void walk() {
+        System.out.println("I'm walking...");
     }
     
 }

@@ -9,5 +9,5 @@ package com.mycompany.zooproject;
  * @author sebastianpadilla
  */
 public abstract class SpheniscidaeFactory {
-    public abstract Spheniscidae CreateSpheniscidae();
+    public abstract Spheniscidae createSpheniscidae();
 }

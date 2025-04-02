@@ -10,5 +10,5 @@ package com.mycompany.zooproject;
  */
 public abstract class DelphinidaeFactory {
     
-    public abstract Delphinidae CreateDelphindae();
+    public abstract Delphinidae createDelphindae();
 }

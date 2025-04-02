@@ -22,19 +22,19 @@ public class ZooProject {
         //Ejemplo de la adquisicion de chiropteras
         Zoo sczZoo = new Zoo();
         ChiropteraFactory chiropteraFactory = new ChiropteraNormalCreator();
-        sczZoo.addMammal(chiropteraFactory.CreateChiroptera());
+        sczZoo.addMammal(chiropteraFactory.createChiroptera());
         chiropteraFactory = new ChiropteraAlbinoCreator();
-        sczZoo.addMammal(chiropteraFactory.CreateChiroptera());
+        sczZoo.addMammal(chiropteraFactory.createChiroptera());
 
         DelphinidaeFactory delphinFactory = new DelphinidaeSpinnerCreator();
-        sczZoo.addMammal(delphinFactory.CreateDelphindae());
+        sczZoo.addMammal(delphinFactory.createDelphindae());
         delphinFactory = new DelphinidaeDuskyCreator();
-        sczZoo.addMammal(delphinFactory.CreateDelphindae());
+        sczZoo.addMammal(delphinFactory.createDelphindae());
         
         SpheniscidaeFactory spheniscidaeFactory = new SpheniscidaeKingCreator();
-        sczZoo.addBird(spheniscidaeFactory.CreateSpheniscidae());
+        sczZoo.addBird(spheniscidaeFactory.createSpheniscidae());
         spheniscidaeFactory = new SpheniscidaeEmperorCreator();
-        sczZoo.addBird(spheniscidaeFactory.CreateSpheniscidae());
+        sczZoo.addBird(spheniscidaeFactory.createSpheniscidae());
         
         System.out.println(sczZoo.mammals.toString());
         

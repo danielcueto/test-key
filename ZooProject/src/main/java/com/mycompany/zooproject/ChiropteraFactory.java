@@ -9,5 +9,5 @@ package com.mycompany.zooproject;
  * @author daniel.cueto
  */
 public abstract class ChiropteraFactory {
-    public abstract Chiroptera CreateChiroptera();
+    public abstract Chiroptera createChiroptera();
 }
