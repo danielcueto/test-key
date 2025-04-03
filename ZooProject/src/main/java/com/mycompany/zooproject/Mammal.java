@@ -2,9 +2,7 @@ package com.mycompany.zooproject;
 
 /**
  * La interfaz {@code Mammal} define las características y comportamientos comunes
- * a todos los mamíferos. Cada implementación de esta interfaz debería proporcionar
- * comportamientos específicos para las acciones asociadas con los mamíferos,
- * como beber, comer, hablar, entre otros.
+ * a todos los mamíferos.
  * 
  */
 public interface Mammal {
@@ -24,17 +22,17 @@ public interface Mammal {
     boolean hasHair();
 
     /**
-     * Método que simula la acción de beber agua del mamífero.
+     * Simula la acción de beber agua del mamífero.
      */
     void drink();
 
     /**
-     * Método que simula la acción de comer del mamífero.
+     * Simula la acción de comer del mamífero.
      */
     void eat();
 
     /**
-     * Método que simula la acción de hablar del mamífero.
+     * Simula la acción de hablar del mamífero.
      */
     void speak();
     
